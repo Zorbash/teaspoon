@@ -4,6 +4,7 @@
     <title>Teaspoon :: Javascript Test Runner</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
+    <% disable_precompile_checker! %>
 
     <%= stylesheet_link_tag *@suite.stylesheets %>
     <%= javascript_include_tag *@suite.javascripts %>
